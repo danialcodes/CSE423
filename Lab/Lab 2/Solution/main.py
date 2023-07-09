@@ -24,8 +24,6 @@ def showScreen(n):
     x = windowX//2-40
 
     for num in n:
-        r,g,b = get_random_color()
-        glColor3f(r,g,b)
         x = draw_numbers(int(num), x)
     glutSwapBuffers()   
     

@@ -67,7 +67,8 @@ def six(x, y):
 
 def seven(x, y):
     midpoint(x + 20, y + 40, x, y + 40)  # 2
-    midpoint(x + 20, y + 40, x, y)
+    midpoint(x + 20, y + 20, x + 20, y + 40)  # 3
+    midpoint(x + 20, y, x + 20, y + 20)  # 4
     return x + 15
 
 

@@ -23,6 +23,8 @@ def draw(x, y):
     glEnd()
 
 def midpoint(x0, y0, x1, y1):
+    r,g,b = get_random_color()
+    glColor3f(r,g,b)
     if x0 > x1:
         x0,y0,x1,y1 = x1,y1,x0,y0
 
