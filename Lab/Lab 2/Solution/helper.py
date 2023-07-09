@@ -7,8 +7,6 @@ import random
 
 def get_random_color():
     return random.random(), random.random(), random.random()
-def get_random_point(start,end):
-    return random.randint(start,end)
 
 def getStudentId():
     if(args.stdId):
